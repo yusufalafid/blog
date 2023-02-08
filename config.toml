@@ -1,0 +1,45 @@
+baseURL = 'http://127.0.0.1/'
+languageCode = 'en-us'
+title = 'Yusuf Al Afid'
+theme = 'hello-friend-ng'
+
+[taxonomies]
+  tag      = "tags"
+  category = "categories"
+  series   = "series"
+
+[author]
+  name = "UUCP"
+
+[params]
+  homeSubtitle = "Cloud, DevOps & Regular Person"
+  enableSharingButtons = true
+  [params.logo]
+    logoMark = ">"
+    logoText = "$ whoami"
+    logoHomeLink = "/"
+  [[params.social]]
+    name = "email"
+    url = "mailto:uucp.bit@gmail.com"
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/yusufalafid"
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/yusufalafid/"
+
+## footer
+  [params.footer]
+    trademark = true
+    author = true
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "about/"
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    target = "_blank"
+    url = "https://blog.uucp.in"
